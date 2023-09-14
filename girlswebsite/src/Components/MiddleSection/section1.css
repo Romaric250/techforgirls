@@ -1,0 +1,122 @@
+.middle-section-wrapper {
+    margin-top: 6.5rem;
+    ;
+}
+
+.middle-section-wrapper .partner-wrapper {
+    display: flex;
+
+    margin: auto;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+
+    width: 75%;
+    margin-bottom: 11rem;
+
+}
+
+.module-wrapper,
+.client-container {
+    color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.module-wrapper h2,
+.main-module-wrapper h2 {
+    font-family: Epilogue;
+    color: var(--color-primary);
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+
+}
+
+.module-wrapper p {
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 15rem;
+    line-height: 1.6875rem;
+
+}
+
+.main-module-wrapper,
+.main-client-container,
+.main-team-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-module-wrapper .module-container,
+.client-wrapper,
+.team-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-client-container {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.client-container {
+    color: var(--color-primary);
+    display: flex;
+    width: 19.6875rem;
+    padding: 1.875rem 3.125rem 1.875rem 1.875rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border: 1.5px solid #FFD285;
+    background: #FFFCF5;
+
+}
+
+.client-container .rating-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+
+    gap: 1rem;
+    justify-content: flex-start;
+
+}
+
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.main-team-wrapper .team-container {
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.team-wrapper h2 {
+    color: #310C65;
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem;
+
+
+}

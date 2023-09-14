@@ -1,0 +1,65 @@
+.header-content {
+
+    margin-top: 12rem;
+
+
+}
+
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.left-section h2 {
+    color: #310C65;
+    font-family: Epilogue;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    line-height: 5.625rem;
+    /* 112.5% */
+}
+
+.left-section p {
+    color: #310C65;
+
+    /* Body text */
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 6rem;
+    line-height: 1.6875rem;
+    /* 158.824% */
+}
+
+.left-section button {
+    display: inline-flex;
+    padding: 1.5625rem 5.125rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    color: white;
+    background: #310C65;
+}
+
+/* .right-section .elipse1 {
+
+    width: 22.35225rem;
+    height: 22.35225rem;
+    transform: rotate(-0.641deg);
+    flex-shrink: 0;
+    border-radius: 22.35225rem;
+    background: #EAFFFF;
+} */
+
+.right-section img {
+    border-radius: 50%;
+
+}

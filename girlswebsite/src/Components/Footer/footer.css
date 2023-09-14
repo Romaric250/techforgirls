@@ -1,0 +1,115 @@
+.footer-content {
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.drawline {
+    width: 70%;
+    height: 0.2rem;
+    text-align: center;
+    background-color: rgb(98, 107, 114);
+
+}
+
+.main-footer-content {
+    color: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+
+}
+
+.left-side h2 {
+
+    font-family: Epilogue;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem;
+    margin-bottom: 2rem;
+
+}
+
+.left-side p {
+
+
+    font-family: Epilogue;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    margin-bottom: 2rem;
+
+}
+
+.left-side .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-side form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.right-side form button {
+    display: inline-flex;
+    padding: 1.5625rem 5.125rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border: none;
+    width: 12rem;
+    outline: none;
+    color: white;
+    background: #310C65;
+}
+
+.right-side form button:hover {
+    background-color: #7446b3;
+    transition: 2s ease-in;
+}
+
+.right-side form input {
+    width: 33rem;
+    height: 4rem;
+    padding: 2rem;
+
+    outline: none;
+
+}
+
+.right-side form textarea {
+    height: 10rem;
+    resize: none;
+    padding: 2rem;
+
+    outline: none;
+}
+
+@media screen and (max-width:650px) {
+    .right-side form {
+        width: 100%;
+        padding: 2rem;
+
+    }
+
+    .right-side form input,
+    .right-side form textarea {
+        width: 100%;
+    }
+}

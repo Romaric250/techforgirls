@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #310C65;
+
+}
+
+button:hover {
+  background-color: #7446b3;
+  transition: 2s ease-in;
+  outline: none;
+  border: none;
+
+}
