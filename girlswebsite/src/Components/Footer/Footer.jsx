@@ -8,7 +8,7 @@ const Submit = (e) => {};
 
 const Footer = () => {
   return (
-    <div className="footer-content">
+    <div className="footer-content" id="contact">
       <div className="drawline"></div>
       <div className="main-footer-content">
         <div className="left-side">

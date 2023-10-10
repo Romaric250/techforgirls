@@ -4,7 +4,7 @@ import "./header.css";
 import beryl from "../../assets/Beryl 1.png";
 const Header = () => {
   return (
-    <div className="main-header">
+    <div className="main-header" id="home">
       <div className="header-content">
         <div className="header-wrapper">
           <div className="left-section">
@@ -15,7 +15,9 @@ const Header = () => {
               gender equality and innovation go hand in hand.
             </p>
 
-            <button>Contact Us</button>
+            <a href="#contact">
+              <button>Contact Us</button>
+            </a>
           </div>
 
           <div className="right-section">
